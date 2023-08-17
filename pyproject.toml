@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pyroxtend"
+version = "0.0.0b0"
+description = "Telegram MTProto API framework based on Pyrogram and inspired by Aiogram"
+authors = ["Łukasz Tshipenchko <dev@zxc.sx>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
